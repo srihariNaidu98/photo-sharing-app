@@ -13,7 +13,7 @@ const app = express();
 const port=8000
 
 mongoose
-	.connect("mongodb://localhost:27017/photo-share", {
+	.connect("mongodb+srv://srihariharish98:srihari98@cluster0.rrotuzc.mongodb.net/photo-share", {
 		useNewUrlParser: true,
 		useUnifiedTopology: true,
 	})
