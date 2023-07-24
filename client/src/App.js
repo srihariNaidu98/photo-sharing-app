@@ -2,9 +2,7 @@ import React from "react";
 import {
 	BrowserRouter as Router,
 	Route,
-	Switch,
-	Link,
-	Redirect,
+	Switch
 } from "react-router-dom";
 import HomePage from "./components/HomePage/HomePage";
 import UploadPost from "./components/UploadPost/UploadPost";
