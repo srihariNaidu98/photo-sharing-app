@@ -1,7 +1,6 @@
 import React, { useState } from "react";
 import "./Post.css";
 import heart from './heart.png'
-import share from './share.png'
 import PhotoService from '../../services/PhotoService'
 
 function Post({ name,tag,imagePath,date,likes,id}) {

@@ -20,11 +20,11 @@ function InstagramPage() {
 	
 	  const handleFilterSubmit = (e) => {
 		let query={}
-		if(name!=''){
+		if(name!==''){
 			query={...query,'name':name}
 
 		}
-		if(location!=''){
+		if(location!==''){
 			query={...query,'tags':[location]}
 
 		}
@@ -35,19 +35,20 @@ function InstagramPage() {
 	  };
 
 	useEffect(() => {
-		const query={}
-		if(name!=''){
+		let query={}
+		if(!name && name!==''){
 			query={...query,'name':name}
 
 		}
-		if(location!=''){
+		if(!location && location!==''){
 			query={...query,'tags':[location]}
 
 		}
 
-		PhotoService.getPhotos()
+		PhotoService.getPhotos(query)
 		.then((data) => setPhotos(data))
 		.catch((error) => console.error('Error fetching photos:', error));
+	// eslint-disable-next-line
 	}, []);
 
 	let postarray = [...photos].reverse();
