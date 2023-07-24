@@ -39,7 +39,7 @@ function Post({ name,tag,imagePath,date,likes,id}) {
 					/>
 				</div>
 				{/* {postBody--> Image} */}
-				<img className='post_image'  src = {"http://localhost:8000/" + imagePath} alt='postedImage' />
+				<img className='post_image'  src = {"https://crud-photo-build.onrender.com" + imagePath} alt='postedImage' />
 				<div className="post__footer">
 
 					<div className="post__footerUpper">

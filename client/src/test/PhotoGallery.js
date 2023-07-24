@@ -7,7 +7,7 @@ function PhotoGallery({ photos }) {
       {photos.map((photo,index) => (
         
         <div key={photo._id} className="photo-item">
-          <img className='post_image'  src = {"http://localhost:8000/" + photo.imagePath} />
+          <img className='post_image'  src = {"https://crud-photo-build.onrender.com/" + photo.imagePath} />
         </div>
       ))}
     </div>
