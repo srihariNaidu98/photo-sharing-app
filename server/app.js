@@ -32,6 +32,10 @@ app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({ extended: true }));
 app.use(cors());
 
+app.get('/', (req, res) => {
+	res.sendStatus(200)
+  })
+  
 app.use("/posts", indexRouter);
 
 // catch 404 and forward to error handler
