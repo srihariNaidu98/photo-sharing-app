@@ -1,5 +1,5 @@
 // Sample PhotoService.js for handling HTTP requests (assuming you have a backend API)
-const BASE_URL = 'http://localhost:8000/posts';
+const BASE_URL = 'https://crud-photo-build.onrender.com/posts';
 
 const PhotoService = {
   getPhotos: async (filters) => {
