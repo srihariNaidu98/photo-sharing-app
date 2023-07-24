@@ -1,0 +1,46 @@
+#head {
+	position: fixed;
+	top: 0;
+	width: 100%;
+	background-color: white;
+	display: flex;
+	border-bottom: 1px solid #006238;
+
+	/* margin-left: 0px; */
+	justify-content: center;
+	vertical-align: center;
+	margin-bottom: 50px;
+}
+
+#insta {
+	display: flex;
+	background-color: white;
+	align-items: center;
+	margin-left: 100px;
+	font-family: Palatino;
+	font-size: 64px;
+	color: #006238;
+	margin-top: 25px;
+	opacity: 1;
+	margin-right: 30%;
+}
+
+#logo {
+	flex: 1;
+	padding-left: 10px;
+}
+
+#camera {
+	/* flex: 0.2; */
+	opacity: 1;
+	margin-top: 70%;
+	margin-left: 40%;
+}
+
+.buttons {
+	flex: 0.3;
+	border: none;
+	opacity: 1;
+	background: transparent;
+	margin-right: 300px;
+}

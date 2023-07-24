@@ -1,0 +1,11 @@
+.InstaPagePosts {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	margin-top: 180px;
+}
+
+.searchPost{
+	margin-bottom: 10px;
+}
