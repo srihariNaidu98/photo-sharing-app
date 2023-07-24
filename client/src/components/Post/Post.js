@@ -39,13 +39,13 @@ function Post({ name,tag,imagePath,date,likes,id}) {
 					/>
 				</div>
 				{/* {postBody--> Image} */}
-				<img className='post_image'  src = {"http://localhost:8000/" + imagePath} />
+				<img className='post_image'  src = {"http://localhost:8000/" + imagePath} alt='postedImage' />
 				<div className="post__footer">
 
 					<div className="post__footerUpper">
 						<div className="post__footerUpper-Icons">
 						<div className='postpage_heartshare'>
-                <button className='heartbutton'><img className='postpage_heart' src={heart} alt="my image" onClick={likesbutton}/></button>
+                <button className='heartbutton'><img className='postpage_heart' src={heart} alt="my heart" onClick={likesbutton}/></button>
             
             </div>
 
